@@ -1,21 +1,5 @@
 import cv2
 import edgeiq
-"""
-Use semantic segmentation to determine a class for each pixel of an image.
-The classes of objects detected can be changed by selecting different models.
-This particular starter application uses a model trained on the Pascal VOC dataset
-(http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html).
-
-Different images can be used by updating the files in the *images/*
-directory. Note that when developing for a remote device, removing
-images in the local *images/* directory won't remove images from the
-device. They can be removed using the `aai app shell` command and
-deleting them from the *images/* directory on the remote device.
-
-To change the computer vision model, the engine and accelerator,
-and add additional dependencies read this guide:
-https://alwaysai.co/docs/application_development/configuration_and_packaging.html
-"""
 
 
 def main():
