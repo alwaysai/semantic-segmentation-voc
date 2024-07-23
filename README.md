@@ -25,7 +25,7 @@ aai app start
 
 Different images can be used by updating the files in the *images/* directory. Note that when developing for a remote device, removing images in the local *images/* directory won't remove images from the device. They can be removed using the `aai app install --clean` command.
 
-To change the computer vision model, the engine and accelerator, and add additional dependencies read [this guide](https://alwaysai.co/docs/application_development/configuration_and_packaging.html).
+To change the computer vision model, the engine and accelerator, and add additional dependencies read [this guide](https://docs.alwaysai.co/application_development/application_configuration.html).
 
 ## Support
 * [Documentation](https://alwaysai.co/docs/)
